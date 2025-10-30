@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <p>Please fill out necessary details</p>
+    <hr>
+    <h2>Personal Details</h2>
+
+    <label for="Fname">First Name : </label>
+    <input type="text" name="Fname" id="Fname" placeholder="e.g. Arjun">
+    <br><br>
+
+    <label for="Lname">Last Name : </label>
+    <input type="text" name="Lname" id="Lname" placeholder="e.g. Sharma">
+    <br><br>
+
+    <label for="DOB">Date of Birth : </label>
+    <input type="date" name="DOB" id="DOB">
+    <br><br>
+
+    <h2>Gender</h2>
+    <br>
+
+    <label for="male">Male</label>
+    <input type="radio" name="Gender" id="male" value="M">
+    
+    <label for="female">Female</label>
+    <input type="radio" name="Gender" id="female" value="F">
+    <br><br>
+
+    <h2>Upload Your Photo</h2>
+    <input type="file">
+
+    <h2>Contact Information</h2>
+
+    <label for="email">Email : </label>
+    <input type="email" name="Email" id="email" placeholder="e.g. your@mail.com">
+    <br><br>
+
+    <label for="phone">Phone : </label>
+    <input type="number" name="phone" id="phone" placeholder="1234567912">
+    <br><br>
+
+    <label for="address">Mailing Address : </label>
+    <br>
+    <textarea name="address" id="address" rows="10" cols="15"></textarea>
+    <br><br>
+
+    <h2>Academic Information</h2>
+
+    <label for="course">Select your Course : </label>
+    <select name="course" id="course">
+        <option value="cse">CSE</option>
+        <option value="mechanical">Mechanical</option>
+        <option value="electrical">Electrical</option>
+    </select>
+    <br><br>
+
+    <h2>Extra Curricular Activities : </h2>
+    <label for="sports">Sports</label>
+    <input type="checkbox" name="intrest" value="sports" id="sports">
+    <br>
+    <label for="music">Music</label>
+    <input type="checkbox" name="intrest" value="music" id="music">
+    <br>
+    <label for="reading">Reading</label>
+    <input type="checkbox" name="intrest" value="reading" id="reading">
+    <br><br>
+    
+    <button type="submit">Submit</button>
+    <button type="reset">Clear Form</button>
+</body>
+</html>
