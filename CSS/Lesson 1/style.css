@@ -1,0 +1,71 @@
+/* Tag Based
+
+h1{
+    background-color: pink;
+}
+
+ul{
+    background-color: yellow;
+}
+
+h2{
+    background-color: aquamarine;
+} */
+
+/* Id Based 
+#first{
+    background-color: aquamarine;
+}
+#second{
+    background-color: pink;
+} 
+*/
+
+/* Class Based 
+.third{
+    background-color: greenyellow;
+}
+
+.fourth{
+    background-color: aquamarine;
+} 
+*/
+
+/* Multiple Selectors
+h1,.fourth, #first{
+    background-color: aqua;
+} */
+
+/* 
+h1{
+    background-color: rgba(31, 185, 139, 0.773);
+}
+
+h2{
+    background-color: hsl(110, 50%, 50%);
+} */
+
+/* 
+h1{
+    background-color: #639747;
+} 
+*/
+
+/* h1{
+    font-size: 20px;
+}
+li{
+    font-size: 2em;
+} */
+/* h2{
+    font-size: 2rem;
+} */
+/* h2{
+    font-size: 2vw;
+} */
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
