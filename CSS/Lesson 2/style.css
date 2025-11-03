@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    background-color: orange;
+    height: 300px;
+    width: 300px;
+    /* 
+    border: 5px;
+    border-style: solid;
+    border-color: green;
+    border-width: 15px; 
+    */
+
+    border: 15px solid green;
+    padding: 10px;
+    margin: 30px;
+
+    /* box-sizing: border-box; */
+    /* box-sizing: content-box; */
+
+    /* display: inline; */
+    /* display: inline-block; */
+
+    /* padding: 10px 20px 30px 40px; */
+    /* top right bottom left */
+
+    /* padding: 10px 20px; */
+    /* topbottom leftright*/
+}
+/*In inline element margin and padding apply only in horizontal direction and height and width cannot be applied*/
+span{
+    background-color: greenyellow;
+    height: 500px;
+    width: 600px;
+    margin: 10px;
+    /* display: block; */
+}
+
+h2{
+    background-color: pink;
+    border: 2px solid blue;
+    margin: 20px;
+}
+
+p{
+    background-color: aquamarine;
+    padding: 20px;
+    border: 5px solid blue;
+    margin: 15px;
+}
