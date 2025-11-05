@@ -1,0 +1,39 @@
+.box{
+    height: 100px;
+    width: 100px;
+}
+
+/*justify-content works on main axis defined by flex direction
+ align item works on cross axis*/
+.container{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+    height: 400px;
+}
+
+.first{
+    background-color: orange;
+    flex-basis: 200px;
+    /* flex-grow: 1; */
+}
+
+.second{
+    background-color: green;
+    flex-shrink: 4;
+    /* flex-grow: 2; */
+}
+
+.third{
+    background-color: red;
+    /* flex-grow: 3; */
+    align-self: flex-end;
+}
+
+.fourth{
+    background-color: chartreuse;
+}
