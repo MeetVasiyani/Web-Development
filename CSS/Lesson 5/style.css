@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: aliceblue;
+}
+body{
+    background-color: black;
+}
+.container{
+    display: grid;
+    height: 600px;
+    width: 600px;
+    background-color: aqua;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.First{
+    background-color: white;
+}
+.Second{
+    background-color: brown;
+}
